@@ -1,1 +1,1 @@
-<h1>Art/Red Push Pull</h1>
+<h1 class="art">Art/Red Push Pull</h1>

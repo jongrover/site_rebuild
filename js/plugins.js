@@ -21,21 +21,24 @@
     }
 }());
 
+//start plugins
 $(function(){
 
-    new jQueryCollapse($('#list1'), {
+    //persisting accordion nav
+
+    new jQueryCollapse($('#art'), {
         query: 'h3',
         accordion: false,
         persist: true
     });
 
-    new jQueryCollapse($('#list2'), {
+    new jQueryCollapse($('#code'), {
         query: 'h3',
         accordion: false,
         persist: true
     });
 
-    new jQueryCollapse($('#list3'), {
+    new jQueryCollapse($('#about'), {
         query: 'h3',
         accordion: false,
         persist: true

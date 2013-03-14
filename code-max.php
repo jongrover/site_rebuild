@@ -1,1 +1,1 @@
-<h1>Code/Max-MSP</h1>
+<h1 class="code">Code/Max-MSP</h1>

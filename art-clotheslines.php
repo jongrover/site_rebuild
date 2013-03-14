@@ -1,1 +1,1 @@
-<h1>Art/Clotheslines</h1>
+<h1 class="art">Art/Clotheslines</h1>

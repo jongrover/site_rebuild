@@ -70,32 +70,30 @@ textarea {
     width: 100%;
 }
 
+h1 {
+   color: #96937B;
+   font-weight: 200;
+}
+
 aside, section {
     padding: 20px;
+}
+
+/* align heading with top of aside text */
+section {
+    padding-top: 13px;
 }
 
 aside {
     width: 25%;
     float: left;
 }
-/*
-<aside>
-        <nav>
-            <div id="list1">
-                <h3>Artwork</h3>
-*/
+ 
 aside nav > div > h3 {
     margin: 0;
     padding: 0 0 5px 0;
 }
-/*
-<aside>
-    <nav>
-        <div id="list1">
-            <h3>Artwork</h3>
-            <div>
-                <h3>2013</h3>
-*/
+
 aside div div {
     margin: 0;
     padding: 0 0 0 20px;
@@ -103,26 +101,16 @@ aside div div {
 
 aside nav a {
     display: block;
+    margin: 0 0 3px 0;
 }
 
-/*
-
-aside nav > ul {
-    margin:0;
+aside h3 {
+    font-size: 16px;
+    margin:0 0 5px 0;
     padding:0;
+    line-height: 1em;
+    font-weight: normal;
 }
-
-aside nav > ul ul {
-    margin:0 0 0 10px;
-    padding:0;
-}
-
-aside nav li {
-    margin:0;
-    padding:5px;
-}
-
-*/
 
 section {
     width: 75%;
@@ -133,22 +121,115 @@ section h1 {
     line-height: 0;
 }
 
+/*art links*/
 
+.art {
+   color: #2F354C; 
+}
+
+#art a:link, #art a:visited {
+    color: #2F354C;
+    text-decoration: none;
+}
+
+#art a:active, #art a:hover {
+    color: #000;
+}
+
+/*code links*/
+
+.code {
+    color: #72A4AF;
+}
+
+#code a:link, #code a:visited {
+    color: #72A4AF;
+    text-decoration: none;
+}
+
+#code a:active, #code a:hover {
+    color: #000;
+}
+
+/*about links*/
+
+.about {
+   color: #B07395; 
+}
+
+#about a:link, #about a:visited {
+    color: #B07395;
+    text-decoration: none;
+}
+
+#about a:active, #about a:hover {
+    color: #000;
+}
+
+/*design link*/
+
+.design:link, .design:visited {
+    color: #385966;
+    text-decoration: none;
+}
+
+.design:active, .design:hover {
+    color: #000;
+}
+
+/*teaching link*/
+
+.teaching:link, .teaching:visited {
+    color: #644766;
+    text-decoration: none;
+}
+
+.teaching:active, .teaching:hover {
+    color: #000;
+}
+
+/*regular links*/
+
+aside nav > a:link, aside nav > a:visited {
+    color: #96937B;
+    text-decoration: none;
+}
+
+aside nav > a:active, aside nav > a:hover {
+    color: #000;
+}
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 550px) { 
 
-}
+    aside, section {
+        width: 100%;
+        float: none;
+    }
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+    #art, #code, #about {
+        margin: 0;
+        padding:0;
+    }
 
-}
+    #art, #code, #about, aside nav > a {
+        display: block;
+        float: left;
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        margin: 0 5px 5px 0;
+        width: auto;
+    }
+
+    aside nav h3 {
+        line-height: 1em;
+    }
+
+}   
 
 /* ==========================================================================
    Helper classes

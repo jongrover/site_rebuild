@@ -1,1 +1,1 @@
-<h1>Art/Table no.1</h1>
+<h1 class="art">Art/Table no.1</h1>

@@ -1,1 +1,1 @@
-<h1>Exhibition List</h1>
+<h1 class="art">Exhibition List</h1>

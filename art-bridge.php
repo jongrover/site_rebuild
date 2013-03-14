@@ -1,1 +1,1 @@
-<h1>Art/Bridge</h1>
+<h1 class="art">Art/Bridge</h1>

@@ -1,1 +1,1 @@
-<h1>Art/Chimes no.2</h1>
+<h1 class="art">Art/Chimes no.2</h1>

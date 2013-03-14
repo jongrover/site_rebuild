@@ -1,1 +1,1 @@
-<h1>Code/JS</h1>
+<h1 class="code">Code/JS</h1>

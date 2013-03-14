@@ -1,1 +1,1 @@
-<h1>Art/Drum Circle</h1>
+<h1 class="art">Art/Drum Circle</h1>

@@ -1,1 +1,1 @@
-<h1>Statement</h1>
+<h1 class="art">Statement</h1>

@@ -1,1 +1,1 @@
-<h1>Résumé/CV</h1>
+<h1 class="about">Résumé/CV</h1>

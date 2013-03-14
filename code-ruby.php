@@ -1,1 +1,1 @@
-<h1>Code/Ruby</h1>
+<h1 class="code">Code/Ruby</h1>
