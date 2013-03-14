@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jonathan Grover -- Designer / Developer -- @jongrover
+
+# THANKS
+
+    University of Akron, SFAI, 3rdWard, General Asssembly, The Flatiron School, Skillshare, Laetitia Sonami, My Wife Hui Ying Tsai, and My parents.
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr, PHP
