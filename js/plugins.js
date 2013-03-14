@@ -44,4 +44,16 @@ $(function(){
         persist: true
     });
 
+    //fancybox
+    $('#images a').fancybox({
+        helpers : {
+            overlay : {
+                css : {
+                    'background' : 'rgba(255, 255, 255, 0.9)'
+                }
+            }
+        },
+        mouseWheel: true
+    });
+
 });

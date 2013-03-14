@@ -12,7 +12,7 @@
         <meta name="keywords" content="jon, jonathan, grover, john, johnathan, design, web, graphic, web design, portfolio, work, art, artwork, artist, illustration, photography, mdivtimedia, new, media, applied, instructor, teaching, teacher, San Francisco, Brooklyn, Queens, New York, NYC, based, sfai, san francisco art institute, university of akron, interactive, technology">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.1.custom.min.css">
+        <link rel="stylesheet" href="js/vendor/fancybox/jquery.fancybox.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -116,12 +116,12 @@
         </div><!-- #wrapper -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
-        <script>window.jQuery.ui || document.write('<script src="js/vendor/jquery-ui-1.10.1.custom.min.js"><\/script>')</script>
         <script src="js/vendor/json2.js"></script>
         <script src="js/vendor/jquery.collapse.js"></script>
         <script src="js/vendor/jquery.collapse_storage.js"></script>
         <script src="js/vendor/jquery.collapse_cookie_storage.js"></script>
+        <script src="js/vendor/jquery.mousewheel-3.0.6.pack.js"></script>
+        <script src="js/vendor/fancybox/jquery.fancybox.pack.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script>

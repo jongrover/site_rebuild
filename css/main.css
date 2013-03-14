@@ -73,6 +73,7 @@ textarea {
 h1 {
    color: #96937B;
    font-weight: 200;
+   margin-bottom:30px;
 }
 
 aside, section {
@@ -121,7 +122,7 @@ section h1 {
     line-height: 0;
 }
 
-/*art links*/
+/*========== art links ==========*/
 
 .art {
    color: #2F354C; 
@@ -136,7 +137,7 @@ section h1 {
     color: #000;
 }
 
-/*code links*/
+/*========== code links ==========*/
 
 .code {
     color: #72A4AF;
@@ -151,7 +152,7 @@ section h1 {
     color: #000;
 }
 
-/*about links*/
+/*========== about links ==========*/
 
 .about {
    color: #B07395; 
@@ -166,7 +167,7 @@ section h1 {
     color: #000;
 }
 
-/*design link*/
+/*========== design link ==========*/
 
 .design:link, .design:visited {
     color: #385966;
@@ -177,7 +178,7 @@ section h1 {
     color: #000;
 }
 
-/*teaching link*/
+/*========== teaching link ==========*/
 
 .teaching:link, .teaching:visited {
     color: #644766;
@@ -188,7 +189,7 @@ section h1 {
     color: #000;
 }
 
-/*regular links*/
+/*=========== regular nav links ==========*/
 
 aside nav > a:link, aside nav > a:visited {
     color: #96937B;
@@ -197,6 +198,69 @@ aside nav > a:link, aside nav > a:visited {
 
 aside nav > a:active, aside nav > a:hover {
     color: #000;
+}
+
+/*========== tabs ==========*/
+#tabs {
+    width: 95%;
+}
+
+#tabs ul {
+    margin: 0;
+    padding: 0;
+}
+
+#tabs li {
+    display: inline;
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+}
+
+#tabs li a {
+    font-size: 14px;
+}
+
+#tabs li a:link, #tabs li a:visited {
+    color: #2F354C;
+    text-decoration: none;
+}
+
+#tabs li a:active, #tabs li a:hover {
+    color: #000;
+}
+
+#tabs ul {
+    margin-bottom: 20px;
+}
+
+.active {
+    background: #efefef;
+}
+
+/*========== media ==========*/
+
+video, audio, img {
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+    padding: 0;
+}
+
+#video, #audio, #details {
+    max-width: 720px;
+    min-width: 240px;
+}
+
+audio {
+    padding:0 0 25px 0;
+}
+
+#images img {
+    width: 100px;
+    height: auto;
+    margin: 0 5px 5px 0;
+    padding: 0;
 }
 
 /* ==========================================================================
